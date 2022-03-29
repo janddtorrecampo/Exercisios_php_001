@@ -1,0 +1,35 @@
+<?php
+
+
+function add($m1, $m2)
+{
+
+
+	for ($i = 0; $i < count($m1); $i++)
+	{
+		for ($j = 0; $j < count($m1); $j++)
+		{
+			echo $m1[$i][$j] + $m2[$i][$j]." ";
+		}
+	echo "<br>";
+	}
+
+
+$m1 = array (array ( 1, 2), 
+            array ( 3,4 )); 
+            
+$m2 = array (array ( 1, 1), 
+            array ( 1, 1 )); 
+            
+
+
+add($m1, $m2);
+
+
+?>
+
+
+
+
+    
+
